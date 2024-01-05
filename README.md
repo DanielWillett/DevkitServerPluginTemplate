@@ -1,4 +1,4 @@
-Plugin Template for https://github.com/DanielWillett/DevkitServer
+### Plugin Template for https://github.com/DanielWillett/DevkitServer for making plugins.
 
 The API is very subject to change until final release.
 
@@ -19,7 +19,7 @@ To use:
   * `<TargetSide>` should match which platform(s) you plan to target. Both will create two separate builds for server and client.
   * You may have to restart visual studio after changing target sides.
 * If needed, open `~/Paths.targets` and specify the correct paths to your unturned installations.
-* Add your own icon and edit the readme if you want.
+* Add your own icon and edit the `README.md` and `LICENSE` if you want.
 
 Make sure your configuration is synced with the project configuration (see the picture below) under `Build -> Configuration Manager`.
 If you see `Current solution contains incorrect configuration mappings...` at the top, reload your project.
